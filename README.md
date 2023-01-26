@@ -5,7 +5,7 @@
 
 Python API using Raspberry Pi, Camera Module, Temperature Humidity Sensor, Motion sensor
 
-The objective of this project is to develop hardware that can monitor suspicious activity on-premises. Raspberry Pi-4B is used as a control unit and with the help of Python the board is programmed to meet the given specification. The system used motion detection, which enable the camera module to record short videos and the Python script automatically delivers that video to the Microsoft Azure cloud server. This monitoring system also sent email with storage link for the administrator review via the internet. 
+Developed a hardware system that utilizes a Raspberry Pi-4B as a control unit, programmed using Python, to monitor for suspicious activity on-premises. The system includes a motion detection feature which allows the camera module to record short videos, a temperature and humidity sensor for fire detection, and a Python script that automatically sends the recorded videos to a registered user's email and stores them on the cloud. Additionally, if a fire is detected within the monitored area, an alert is automatically sent to all registered users. 
 
 Initially appeared on
 [SSMS](https://github.com/viraniyagnik/Smart-surveillance-system)
